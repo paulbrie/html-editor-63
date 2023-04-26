@@ -52,7 +52,7 @@ function updateStatus(ev) {
     animationGlobalStatus = 0;
   }
 
-  if (offsetTop <= window.scrollY && animationGlobalStatus === 0) {
+  if (offsetTop <= window.scrollY) {
     animationGlobalStatus = 1;
   }
 
